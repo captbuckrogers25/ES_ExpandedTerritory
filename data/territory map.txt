@@ -161,6 +161,45 @@ system Ljesn
 		distance 3267.22
 		period 4890.9
 
+system Marduk
+	pos 5132.25 -3425.29
+	habitable 400
+	asteroids "small rock" 1 4.158
+	asteroids "medium rock" 1 5.166
+	asteroids "large rock" 1 5.292
+	asteroids "small metal" 58 4.452
+	asteroids "medium metal" 22 4.116
+	asteroids "large metal" 14 3.36
+	object
+		sprite star/k5
+		distance 16.4948
+		period 12.3122
+	object
+		sprite star/m8
+		distance 51.5052
+		period 12.3122
+		offset 180
+	object
+		sprite planet/station3
+		distance 370
+		period 190
+		offset 30
+	object
+		sprite planet/miranda
+		distance 370
+		period 190
+		offset 120
+	object
+		sprite planet/station3
+		distance 370
+		period 190
+		offset 210
+	object
+		sprite planet/oberon
+		distance 370
+		period 190
+		offset 300
+
 system S-1095
 	pos 4898.72 -3598.76
 	habitable 625
@@ -3165,7 +3204,7 @@ planet "D'Nal Station"
 	landscape land/station2
 	description `The station's exterior is ringed with landing slips of various size, with no discernable protection from the cold depths of surrounding space.  Despite that, as you make final approach your ships sensors detect a precipitous drop in solar radiation across the spectrum, dropping significantly below dangerous levels and stabalizing well inside safe long-term exposure limits.`
 	spaceport `Your ship sensors indicate a marginally breathable atmosphere outside your ship on the slip, in spite of the complete lack of apparent shielding or enclosure.  For safety, you don your suit anyway.`
-	spaceport `The station surface is completely smooth and bare of any features other than a small area bristling with a myriad array of hoses, connectors, and adaptors, one of which appears to mate securely with your fuel tanks.`
+	spaceport `	The station surface is completely smooth and bare of any features other than a small area bristling with a myriad array of hoses, connectors, and adaptors, one of which appears to mate securely with your fuel tanks.`
 
 planet "Deep Station"
 	attributes uninhabited
