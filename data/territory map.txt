@@ -9,6 +9,7 @@ system Detour
 	pos 4315.25 -3429.95
 	habitable 2340
 	link S-1688
+	link S-7072
 	asteroids "small rock" 4 3.576
 	asteroids "medium rock" 1 1.728
 	asteroids "large rock" 4 2.52
@@ -237,6 +238,45 @@ system S-1163
 		distance 1829.75
 		period 642.718
 
+system S-1206
+	pos 4244.52 -3973.87
+	habitable 135
+	link S-8077
+	link S-4092
+	link S-8826
+	asteroids "small rock" 2 3.336
+	asteroids "medium rock" 14 2.472
+	asteroids "large rock" 19 1.68
+	asteroids "small metal" 5 1.728
+	asteroids "large metal" 1 2.544
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/lava5
+		distance 177.24
+		period 81.2336
+	object
+		sprite planet/gas0
+		distance 966.68
+		period 1034.71
+		object
+			sprite planet/ice7
+			distance 290
+			period 14.4728
+		object
+			sprite planet/dust7
+			distance 446
+			period 27.6032
+	object
+		sprite planet/gas17
+		distance 2095.29
+		period 3301.87
+		object
+			sprite planet/rock0
+			distance 231
+			period 15
+
 system S-1344
 	pos 5100.12 -3249.89
 	habitable 1080
@@ -283,6 +323,49 @@ system S-1344
 			sprite planet/rock0
 			distance 190
 			period 13.7857
+
+system S-1378
+	pos 4324.09 -3934.01
+	habitable 1080
+	link S-5655
+	link S-4901
+	link S-8077
+	asteroids "small rock" 2 8.856
+	asteroids "large rock" 7 9.936
+	asteroids "small metal" 3 4.68
+	asteroids "medium metal" 7 7.488
+	asteroids "large metal" 10 7.848
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava2
+		distance 142.96
+		period 20.8051
+	object
+		sprite planet/desert5
+		distance 325.32
+		period 71.4191
+	object
+		sprite planet/venus
+		distance 911.21
+		period 334.793
+		object
+			sprite planet/rock7
+			distance 143
+			period 19.513
+	object
+		sprite planet/gas10
+		distance 1297.25
+		period 568.701
+	object
+		sprite planet/rock14
+		distance 1657.21
+		period 821.135
+	object
+		sprite planet/gas9
+		distance 2409.62
+		period 1439.7
 
 system S-1432
 	pos 4361.62 -3287.31
@@ -799,6 +882,54 @@ system S-2110
 		distance 4930.14
 		period 6709.42
 
+system S-2113
+	pos 4428.09 -3626.01
+	habitable 2340
+	link S-6284
+	link S-5674
+	asteroids "large metal" 1 2.8119
+	object
+		sprite star/f5
+		distance 33.1197
+		period 11.4179
+		offset 180
+	object
+		sprite star/g5
+		distance 90.8803
+		period 11.4179
+	object
+		sprite planet/lava2
+		distance 233.52
+		period 29.508
+	object
+		sprite planet/gas14
+		distance 575.33
+		period 114.111
+	object
+		sprite planet/callisto
+		distance 869.77
+		period 212.109
+	object
+		sprite planet/gas5
+		distance 1970.77
+		period 723.446
+		object
+			sprite planet/rhea
+			distance 259
+			period 13.8611
+		object
+			sprite planet/ice0
+			distance 370
+			period 23.6674
+		object
+			sprite planet/ice8
+			distance 513
+			period 38.6388
+		object
+			sprite planet/ice7
+			distance 633
+			period 52.9606
+
 system S-2123
 	pos 5035.12 -3275.89
 	habitable 486.68
@@ -1026,6 +1157,83 @@ system S-2429
 			distance 506
 			period 40.1442
 
+system S-2579
+	pos 4296.09 -3826.01
+	habitable 425.92
+	link S-4869
+	link S-8743
+	link S-7355
+	asteroids "small rock" 3 3.3516
+	asteroids "medium rock" 1 4.1454
+	asteroids "large rock" 1 2.352
+	asteroids "medium metal" 70 3.2046
+	asteroids "large metal" 47 2.4402
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock11
+		distance 127.36
+		period 27.8577
+	object
+		sprite planet/dust2
+		distance 284.8
+		period 93.155
+	object
+		sprite planet/desert1
+		distance 658.69
+		period 327.656
+	object
+		sprite planet/gas16
+		distance 1568.7
+		period 1204.22
+	object
+		sprite planet/gas13
+		distance 2579.11
+		period 2538.64
+		object
+			sprite planet/dust1
+			distance 260
+			period 11.8351
+
+system S-2582
+	pos 4255.52 -4170.87
+	habitable 486.68
+	link S-9353
+	link S-7924
+	asteroids "medium rock" 42 3.752
+	asteroids "large rock" 1 4.172
+	asteroids "small metal" 42 1.652
+	asteroids "medium metal" 35 2.128
+	asteroids "large metal" 57 2.688
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock2
+		distance 173.64
+		period 41.4871
+	object
+		sprite planet/desert8
+		distance 419.08
+		period 155.555
+	object
+		sprite planet/ice5
+		distance 635.08
+		period 290.189
+	object
+		sprite planet/gas10
+		distance 2008.33
+		period 1631.89
+		object
+			sprite planet/callisto
+			distance 223
+			period 17.5289
+		object
+			sprite planet/rock7
+			distance 333
+			period 31.9863
+
 system S-2713
 	pos 4697.09 -3528.75
 	habitable 1111.68
@@ -1101,6 +1309,53 @@ system S-2778
 			distance 269
 			period 11.5881
 
+system S-2805
+	pos 4477.09 -3823.01
+	habitable 1080
+	link S-9898
+	link S-3083
+	asteroids "small rock" 12 7.938
+	asteroids "medium rock" 44 4.536
+	asteroids "large rock" 6 8.8452
+	asteroids "small metal" 23 5.8968
+	asteroids "medium metal" 56 7.8624
+	asteroids "large metal" 3 7.4844
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud4
+		distance 172.44
+		period 27.5616
+	object
+		sprite planet/ice6
+		distance 478.69
+		period 127.476
+	object
+		sprite planet/gas14
+		distance 946.58
+		period 354.474
+		object
+			sprite planet/rock17
+			distance 246
+			period 15.7131
+	object
+		sprite planet/gas11
+		distance 2075.19
+		period 1150.63
+		object
+			sprite planet/dust0
+			distance 260
+			period 13.8273
+		object
+			sprite planet/ice8
+			distance 370
+			period 23.4736
+		object
+			sprite planet/europa
+			distance 488
+			period 35.5556
+
 system S-2833
 	pos 4919.01 -3743.08
 	habitable 425.92
@@ -1144,6 +1399,39 @@ system S-2833
 		sprite planet/gas1
 		distance 1916.6
 		period 1626.27
+
+system S-2982
+	pos 4236.52 -4231.87
+	habitable 135
+	link S-9353
+	link S-7924
+	link S-7910
+	asteroids "medium rock" 8 3.8412
+	asteroids "large rock" 2 5.1876
+	asteroids "large metal" 1 3.5244
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock16
+		distance 165.16
+		period 73.0719
+	object
+		sprite planet/desert8
+		distance 437.6
+		period 315.144
+	object
+		sprite planet/gas7
+		distance 1285.41
+		period 1586.56
+		object
+			sprite planet/dust7
+			distance 250
+			period 14.0618
+	object
+		sprite planet/gas1
+		distance 1942.17
+		period 2946.62
 
 system S-3019
 	pos 4973.12 -3265.89
@@ -1238,6 +1526,41 @@ system S-3037
 		distance 3474.1
 		period 1745.6
 
+system S-3083
+	pos 4458.09 -3862.01
+	habitable 625
+	link S-2805
+	link S-350
+	asteroids "small rock" 7 1.976
+	asteroids "medium rock" 84 2.1632
+	asteroids "large rock" 27 2.5792
+	asteroids "small metal" 3 2.3296
+	asteroids "medium metal" 2 2.1632
+	asteroids "large metal" 4 2.9328
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava1
+		distance 128.49
+		period 23.3037
+	object
+		sprite planet/rock4
+		distance 334.73
+		period 97.9855
+	object
+		sprite planet/titan
+		distance 862.97
+		period 405.615
+	object
+		sprite planet/ice6
+		distance 1154.33
+		period 627.502
+	object
+		sprite planet/gas14
+		distance 2727.14
+		period 2278.67
+
 system S-309
 	pos 4616.09 -3503.75
 	habitable 233.28
@@ -1282,6 +1605,43 @@ system S-309
 			sprite planet/dust3
 			distance 253
 			period 11.3603
+
+system S-3107
+	pos 4252.52 -3733.87
+	habitable 1080
+	asteroids "small rock" 5 2
+	asteroids "medium rock" 98 5.04
+	asteroids "large rock" 3 2.76
+	asteroids "small metal" 12 2.52
+	asteroids "medium metal" 15 4.64
+	asteroids "large metal" 18 4.36
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rhea
+		distance 134.56
+		period 18.9986
+	object
+		sprite planet/fog0
+		distance 344.17
+		period 77.7155
+	object
+		sprite planet/cloud4
+		distance 777.13
+		period 263.687
+	object
+		sprite planet/desert4
+		distance 1059.29
+		period 419.634
+	object
+		sprite planet/gas16
+		distance 2072.25
+		period 1148.18
+		object
+			sprite planet/dust0
+			distance 205
+			period 15.45
 
 system S-314
 	pos 4466.62 -3292.31
@@ -1422,6 +1782,89 @@ system S-3455
 			distance 478
 			period 42.5599
 
+system S-350
+	pos 4396.09 -3886.01
+	habitable 8640
+	link S-4550
+	link S-3083
+	link S-5655
+	asteroids "large metal" 1 4.384
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/rock8
+		distance 197.09
+		period 11.9069
+	object
+		sprite planet/gas5
+		distance 813.93
+		period 99.9272
+		object
+			sprite planet/ice0
+			distance 259
+			period 13.8611
+		object
+			sprite planet/dust7
+			distance 348
+			period 21.5882
+		object
+			sprite planet/dust4
+			distance 455
+			period 32.2749
+	object
+		sprite planet/gas15
+		distance 1549.69
+		period 262.525
+	object
+		sprite planet/gas4
+		distance 2921.1
+		period 679.396
+		object
+			sprite planet/rock14
+			distance 257
+			period 14.531
+		object
+			sprite planet/rock3
+			distance 372
+			period 25.3053
+
+system S-3574
+	pos 4264.52 -4093.87
+	habitable 486.68
+	link S-3867
+	link S-9565
+	asteroids "large rock" 7 2.093
+	asteroids "medium metal" 187 2.9003
+	asteroids "large metal" 3 2.0631
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava3
+		distance 160.04
+		period 36.7097
+	object
+		sprite planet/ice6
+		distance 542.25
+		period 228.948
+	object
+		sprite planet/lava5
+		distance 1002.21
+		period 575.276
+	object
+		sprite planet/gas2
+		distance 2559.46
+		period 2347.8
+		object
+			sprite planet/luna
+			distance 219
+			period 19.6373
+		object
+			sprite planet/rock17
+			distance 357
+			period 40.8712
+
 system S-3604
 	pos 4899.84 -3703.62
 	habitable 1566.68
@@ -1504,6 +1947,45 @@ system S-368
 			distance 255
 			period 16.5832
 
+system S-3867
+	pos 4215.52 -4070.87
+	habitable 625
+	link S-8826
+	link S-3574
+	asteroids "small rock" 218 2.4242
+	asteroids "medium rock" 37 3.5581
+	asteroids "large rock" 28 3.519
+	asteroids "small metal" 43 4.4965
+	asteroids "medium metal" 31 5.0439
+	asteroids "large metal" 4 4.4183
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert9
+		distance 141.81
+		period 27.0197
+	object
+		sprite planet/lava2
+		distance 308.17
+		period 86.5577
+	object
+		sprite planet/luna
+		distance 458.42
+		period 157.042
+	object
+		sprite planet/gas5
+		distance 1698.42
+		period 1119.92
+		object
+			sprite planet/rock7
+			distance 232
+			period 11.7511
+		object
+			sprite planet/ice8
+			distance 331
+			period 20.0258
+
 system S-4075
 	pos 4796.29 -3415.13
 	habitable 233.28
@@ -1542,6 +2024,41 @@ system S-4075
 		sprite planet/rock0
 		distance 2671.3
 		period 3615.81
+
+system S-4092
+	pos 4241.52 -3929.87
+	habitable 425.92
+	link S-4901
+	link S-1206
+	asteroids "small rock" 2 2.6299
+	asteroids "medium rock" 11 3.179
+	asteroids "large rock" 1 1.8496
+	asteroids "small metal" 2 3.5836
+	asteroids "medium metal" 2 1.6762
+	asteroids "large metal" 1 2.9189
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/oberon
+		distance 134.81
+		period 30.3375
+	object
+		sprite planet/rock13
+		distance 291.42
+		period 96.4217
+	object
+		sprite planet/io
+		distance 914.67
+		period 536.158
+	object
+		sprite planet/jupiter
+		distance 1356.08
+		period 967.885
+	object
+		sprite planet/gas10
+		distance 2581.72
+		period 2542.49
 
 system S-4103
 	pos 4593.34 -3742.1
@@ -1777,6 +2294,92 @@ system S-4305
 		distance 2191.99
 		period 1900.48
 
+system S-4431
+	pos 4180.52 -4195.87
+	habitable 851.84
+	link S-9353
+	link S-7910
+	link S-9386
+	asteroids "small rock" 13 2.9348
+	asteroids "medium rock" 80 3.8456
+	asteroids "large rock" 68 4.0986
+	asteroids "small metal" 2 4.807
+	asteroids "medium metal" 22 6.6792
+	asteroids "large metal" 8 5.9708
+	object
+		sprite star/k5
+		distance 54
+		period 15.3821
+		offset 180
+	object
+		sprite star/k5
+		distance 54
+		period 15.3821
+	object
+		sprite planet/cloud5
+		distance 242.09
+		period 51.6234
+	object
+		sprite planet/rock2
+		distance 527.09
+		period 165.847
+	object
+		sprite planet/ice6
+		distance 756.25
+		period 285.022
+	object
+		sprite planet/cloud2
+		distance 1417.66
+		period 731.542
+		object
+			sprite planet/rock0
+			distance 179
+			period 19.2642
+	object
+		sprite planet/gas14
+		distance 3393.95
+		period 2709.81
+		object
+			sprite planet/ice7
+			distance 242
+			period 15.3314
+
+system S-4550
+	pos 4411.09 -3842.01
+	habitable 486.68
+	link S-9898
+	link S-350
+	asteroids "small rock" 1 4.0698
+	asteroids "large rock" 1 2.6334
+	asteroids "large metal" 1 5.0616
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock16
+		distance 211.24
+		period 55.6676
+	object
+		sprite planet/ganymede
+		distance 426.49
+		period 159.699
+	object
+		sprite planet/forest5
+		distance 995.74
+		period 569.714
+		object
+			sprite planet/rock17
+			distance 133
+			period 16.5621
+	object
+		sprite planet/dust1
+		distance 1583.63
+		period 1142.66
+	object
+		sprite planet/rock3
+		distance 3912.24
+		period 4436.87
+
 system S-473
 	pos 4900.12 -3463.89
 	habitable 3878.28
@@ -1830,6 +2433,100 @@ system S-473
 			distance 473
 			period 41.1157
 
+system S-4869
+	pos 4306.09 -3861.01
+	habitable 486.68
+	link S-4901
+	link S-8743
+	link S-2579
+	asteroids "small rock" 51 7.5516
+	asteroids "medium rock" 39 8.7087
+	asteroids "large rock" 2 7.0035
+	asteroids "small metal" 2 4.3848
+	asteroids "medium metal" 5 5.6637
+	asteroids "large metal" 4 3.5931
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock12
+		distance 224.64
+		period 61.0476
+		object
+			sprite planet/rock17
+			distance 123
+			period 14.2129
+	object
+		sprite planet/rock9
+		distance 593.73
+		period 262.314
+	object
+		sprite planet/water0
+		distance 879.82
+		period 473.183
+	object
+		sprite planet/cloud6
+		distance 1251.38
+		period 802.642
+	object
+		sprite planet/gas7
+		distance 2094.63
+		period 1738.2
+		object
+			sprite planet/dust1
+			distance 239
+			period 13.144
+		object
+			sprite planet/europa
+			distance 381
+			period 26.4556
+		object
+			sprite planet/dust5
+			distance 504
+			period 40.251
+
+system S-4901
+	pos 4283.09 -3913.01
+	habitable 233.28
+	link S-1378
+	link S-4869
+	link S-5847
+	link S-4092
+	link S-8077
+	asteroids "small rock" 8 3.6848
+	asteroids "medium rock" 22 2.352
+	asteroids "large rock" 7 4.2336
+	asteroids "small metal" 4 1.96
+	asteroids "medium metal" 3 2.5088
+	asteroids "large metal" 5 4.8608
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/cloud5
+		distance 184.09
+		period 65.4134
+	object
+		sprite planet/rock18
+		distance 527.1
+		period 316.928
+	object
+		sprite planet/gas16
+		distance 1102.94
+		period 959.288
+	object
+		sprite planet/gas11
+		distance 2600.1
+		period 3472.21
+		object
+			sprite planet/ice8
+			distance 277
+			period 15.2054
+		object
+			sprite planet/dust7
+			distance 400
+			period 26.3856
+
 system S-4936
 	pos 4909.99 -3513.07
 	habitable 320
@@ -1868,6 +2565,44 @@ system S-4936
 			sprite planet/luna
 			distance 231
 			period 15
+
+system S-4960
+	pos 4446.09 -3746.01
+	habitable 1080
+	link S-9898
+	asteroids "small rock" 2 3.675
+	asteroids "medium rock" 2 2.555
+	asteroids "large rock" 22 2.765
+	asteroids "small metal" 7 4.62
+	asteroids "medium metal" 39 3.22
+	asteroids "large metal" 9 3.57
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/titan
+		distance 202.89
+		period 35.1754
+	object
+		sprite planet/desert7
+		distance 413.14
+		period 102.21
+	object
+		sprite planet/cloud6
+		distance 867.38
+		period 310.93
+		object
+			sprite planet/dust0
+			distance 138
+			period 16.5968
+	object
+		sprite planet/gas14
+		distance 1878.99
+		period 991.368
+		object
+			sprite planet/tethys
+			distance 234
+			period 14.5775
 
 system S-5111
 	pos 4969.75 -3539
@@ -1915,6 +2650,55 @@ system S-5111
 			distance 351
 			period 28.0953
 
+system S-5128
+	pos 4346.52 -4057.87
+	habitable 945
+	link S-7183
+	link S-7670
+	asteroids "small rock" 22 4.004
+	asteroids "medium rock" 54 2.2792
+	asteroids "large rock" 25 3.1416
+	asteroids "small metal" 13 2.8952
+	asteroids "medium metal" 109 4.0964
+	asteroids "large metal" 2 3.6652
+	object
+		sprite star/g5
+		distance 35.8942
+		period 14.2005
+	object
+		sprite star/m0
+		distance 70.1058
+		period 14.2005
+		offset 180
+	object
+		sprite planet/gas10
+		distance 324.516
+		period 76.0673
+	object
+		sprite planet/dust2
+		distance 775.606
+		period 281.064
+	object
+		sprite planet/gas17
+		distance 1505.1
+		period 759.784
+		object
+			sprite planet/rhea
+			distance 211
+			period 13.0947
+		object
+			sprite planet/miranda
+			distance 334
+			period 26.0791
+		object
+			sprite planet/luna
+			distance 453
+			period 41.1927
+		object
+			sprite planet/lava0
+			distance 580
+			period 59.6781
+
 system S-5498
 	pos 4889.7 -3758.86
 	habitable 486.68
@@ -1952,6 +2736,175 @@ system S-5498
 			sprite planet/io
 			distance 232
 			period 14.391
+
+system S-5655
+	pos 4360.09 -3937.01
+	habitable 135
+	link S-350
+	link S-1378
+	asteroids "small rock" 6 4.4226
+	asteroids "medium rock" 123 7.5816
+	asteroids "large rock" 22 4.7736
+	asteroids "small metal" 3 4.0716
+	asteroids "medium metal" 12 10.2492
+	asteroids "large metal" 3 3.6504
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/rock8
+		distance 130
+		period 51.028
+	object
+		sprite planet/desert2
+		distance 403.44
+		period 278.973
+		object
+			sprite planet/miranda
+			distance 124
+			period 15.4653
+	object
+		sprite planet/gas9
+		distance 924.85
+		period 968.278
+	object
+		sprite planet/desert6
+		distance 1227.89
+		period 1481.26
+	object
+		sprite planet/gas0
+		distance 3066.33
+		period 5845.5
+
+system S-5674
+	pos 4407.09 -3596.01
+	habitable 1715
+	link S-6284
+	link S-7496
+	link S-2113
+	asteroids "small rock" 5 5.474
+	asteroids "medium rock" 19 5.0232
+	asteroids "large rock" 4 7.5992
+	asteroids "small metal" 40 7.8568
+	asteroids "medium metal" 1 7.084
+	asteroids "large metal" 8 4.1216
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock18
+		distance 207.61
+		period 28.8935
+	object
+		sprite planet/gas14
+		distance 772.22
+		period 207.271
+		object
+			sprite planet/callisto
+			distance 261
+			period 17.1719
+		object
+			sprite planet/ice8
+			distance 399
+			period 32.4577
+	object
+		sprite planet/gas2
+		distance 1597.38
+		period 616.652
+		object
+			sprite planet/dust7
+			distance 210
+			period 18.4393
+	object
+		sprite planet/gas3
+		distance 3280.79
+		period 1815.08
+		object
+			sprite planet/europa
+			distance 273
+			period 11.5215
+
+system S-5808
+	pos 4188.52 -3888.87
+	habitable 486.68
+	link S-5847
+	asteroids "small rock" 11 2.4336
+	asteroids "medium rock" 2 2.4804
+	asteroids "large rock" 7 2.8548
+	asteroids "small metal" 5 4.212
+	asteroids "medium metal" 90 5.148
+	asteroids "large metal" 82 2.6676
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock12
+		distance 218.84
+		period 58.6987
+	object
+		sprite planet/ocean6
+		distance 722.4
+		period 352.05
+		object
+			sprite planet/ice8
+			distance 152
+			period 15.0743
+	object
+		sprite planet/gas16
+		distance 1764.4
+		period 1343.8
+		object
+			sprite planet/desert4
+			distance 201
+			period 15
+		object
+			sprite planet/lava0
+			distance 355
+			period 35.2079
+		object
+			sprite planet/ice7
+			distance 500
+			period 58.8508
+
+system S-5847
+	pos 4245.52 -3868.87
+	habitable 1050.92
+	link S-4901
+	link S-7355
+	link S-5808
+	asteroids "large rock" 1 2.548
+	asteroids "small metal" 16 3.5672
+	asteroids "medium metal" 14 2.912
+	asteroids "large metal" 9 1.8564
+	object
+		sprite star/g5
+		distance 47.0128
+		period 15.4157
+		offset 180
+	object
+		sprite star/k5
+		distance 68.9872
+		period 15.4157
+	object
+		sprite planet/lava5
+		distance 295.347
+		period 62.6288
+	object
+		sprite planet/ice4
+		distance 518.837
+		period 145.822
+	object
+		sprite planet/gas2
+		distance 817.677
+		period 288.501
+	object
+		sprite planet/gas3
+		distance 1964.12
+		period 1074.05
+		object
+			sprite planet/dust0
+			distance 260
+			period 10.7084
 
 system S-6035
 	pos 4995.68 -3673.17
@@ -1998,6 +2951,80 @@ system S-6035
 			sprite planet/dust0
 			distance 551
 			period 33.0364
+
+system S-6113
+	pos 4386.09 -3696.01
+	habitable 486.68
+	asteroids "small rock" 2 3.0096
+	asteroids "medium rock" 20 5.1744
+	asteroids "large rock" 1 5.7552
+	asteroids "small metal" 2 3.2208
+	asteroids "medium metal" 5 5.6496
+	asteroids "large metal" 7 6.6528
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava7
+		distance 133.64
+		period 28.0119
+	object
+		sprite planet/dust7
+		distance 410.6
+		period 150.857
+	object
+		sprite planet/rock6
+		distance 964.64
+		period 543.233
+	object
+		sprite planet/gas13
+		distance 1988.2
+		period 1607.42
+		object
+			sprite planet/callisto
+			distance 304
+			period 14.9631
+
+system S-6284
+	pos 4338.09 -3639.01
+	habitable 1111.68
+	link S-2113
+	link S-5674
+	link S-7496
+	asteroids "small rock" 3 2.24
+	asteroids "medium rock" 57 3.2256
+	asteroids "large rock" 2 3.024
+	asteroids "medium metal" 10 3.36
+	asteroids "large metal" 1 2.3072
+	object
+		sprite star/g5
+		distance 46.8433
+		period 13.2784
+	object
+		sprite star/k0
+		distance 60.1567
+		period 13.2784
+		offset 180
+	object
+		sprite planet/lava1
+		distance 280.247
+		period 56.2835
+	object
+		sprite planet/dust7
+		distance 420.337
+		period 103.387
+	object
+		sprite planet/cloud1
+		distance 660.627
+		period 203.706
+	object
+		sprite planet/water1
+		distance 1091.59
+		period 432.671
+	object
+		sprite planet/gas17
+		distance 3647.84
+		period 2643.16
 
 system S-6502
 	pos 4553.88 -3754.5
@@ -2188,6 +3215,53 @@ system S-6783
 		distance 3620.78
 		period 3485.97
 
+system S-7072
+	pos 4406.09 -3446.01
+	habitable 425.92
+	link S-8740
+	link Detour
+	asteroids "small rock" 10 3.4272
+	asteroids "medium rock" 24 3.8862
+	asteroids "large rock" 4 1.9278
+	asteroids "small metal" 2 2.9682
+	asteroids "medium metal" 66 4.0086
+	asteroids "large metal" 47 3.0294
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/fog0
+		distance 395.69
+		period 152.556
+		object
+			sprite planet/lava0
+			distance 200
+			period 20.8653
+	object
+		sprite planet/cloud5
+		distance 1056.5
+		period 665.58
+		object
+			sprite planet/io
+			distance 208
+			period 19.6048
+	object
+		sprite planet/cloud0
+		distance 1426.99
+		period 1044.79
+	object
+		sprite planet/gas2
+		distance 2989.28
+		period 3167.71
+		object
+			sprite planet/rock17
+			distance 209
+			period 18.3077
+		object
+			sprite planet/miranda
+			distance 334
+			period 36.9857
+
 system S-7098
 	pos 5429.12 -2956.89
 	habitable 486.68
@@ -2294,6 +3368,48 @@ system S-7113
 			distance 532
 			period 31.3424
 
+system S-7133
+	pos 4250.69 -3560.03
+	habitable 1050.92
+	asteroids "small rock" 2 3.703
+	asteroids "medium rock" 5 7.7234
+	asteroids "large rock" 1 3.2269
+	asteroids "medium metal" 1 7.1944
+	asteroids "large metal" 2 5.5545
+	object
+		sprite star/g5
+		distance 49.0392
+		period 16.423
+	object
+		sprite star/k5
+		distance 71.9608
+		period 16.423
+		offset 180
+	object
+		sprite planet/rock8
+		distance 255.201
+		period 50.3035
+	object
+		sprite planet/gas4
+		distance 569.211
+		period 167.566
+	object
+		sprite planet/rock12
+		distance 1017.57
+		period 400.518
+		object
+			sprite planet/tethys
+			distance 164
+			period 21.8822
+	object
+		sprite planet/forest2
+		distance 1565.66
+		period 764.402
+	object
+		sprite planet/gas5
+		distance 2252.47
+		period 1319.06
+
 system S-7177
 	pos 4668.89 -3788.33
 	habitable 425.92
@@ -2339,6 +3455,103 @@ system S-7177
 			sprite planet/oberon
 			distance 294
 			period 12.8761
+
+system S-7183
+	pos 4335.52 -3997.87
+	habitable 3645
+	link S-8077
+	link S-7670
+	link S-5128
+	asteroids "small rock" 1 1.254
+	asteroids "medium rock" 4 1.342
+	asteroids "large rock" 1 1.166
+	asteroids "small metal" 4 1.067
+	asteroids "medium metal" 9 1.243
+	asteroids "large metal" 2 1.243
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/venus
+		distance 304.56
+		period 35.2144
+		object
+			sprite planet/io
+			distance 162
+			period 23.5284
+	object
+		sprite planet/rock5
+		distance 800.25
+		period 149.986
+	object
+		sprite planet/rock18
+		distance 1198.41
+		period 274.865
+	object
+		sprite planet/gas14
+		distance 2158.37
+		period 664.355
+		object
+			sprite planet/dust5
+			distance 223
+			period 13.5618
+		object
+			sprite planet/dust0
+			distance 349
+			period 26.552
+
+system S-7355
+	pos 4241.52 -3838.87
+	habitable 640
+	link S-2579
+	link S-5847
+	asteroids "small rock" 1 5.88
+	asteroids "medium rock" 1 3.654
+	asteroids "large rock" 1 4.452
+	asteroids "small metal" 15 2.352
+	asteroids "medium metal" 6 2.73
+	asteroids "large metal" 2 6.132
+	object
+		sprite star/m0
+		distance 54
+		period 17.7462
+		offset 180
+	object
+		sprite star/m0
+		distance 54
+		period 17.7462
+	object
+		sprite planet/lava6
+		distance 201.16
+		period 45.111
+	object
+		sprite planet/desert8
+		distance 381.32
+		period 117.735
+	object
+		sprite planet/mercury
+		distance 754.32
+		period 327.569
+	object
+		sprite planet/gas5
+		distance 1424.21
+		period 849.828
+		object
+			sprite planet/dust3
+			distance 251
+			period 13.2238
+		object
+			sprite planet/ice0
+			distance 356
+			period 22.3369
+		object
+			sprite planet/tethys
+			distance 470
+			period 33.884
+	object
+		sprite planet/europa
+		distance 3817.97
+		period 3730.09
 
 system S-7419
 	pos 4738.41 -3614.68
@@ -2386,6 +3599,49 @@ system S-7419
 			sprite planet/dust3
 			distance 469
 			period 53.4634
+
+system S-7496
+	pos 4380.09 -3568.01
+	habitable 486.68
+	link S-6284
+	link S-5674
+	link S-8740
+	asteroids "medium rock" 9 1.7094
+	asteroids "large rock" 1 1.7402
+	asteroids "small metal" 1 0.9702
+	asteroids "medium metal" 5 0.924
+	asteroids "large metal" 2 1.386
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock1
+		distance 208.25
+		period 54.4899
+	object
+		sprite planet/gas12
+		distance 806.81
+		period 415.523
+		object
+			sprite planet/dust1
+			distance 293
+			period 13.1731
+		object
+			sprite planet/rock3
+			distance 430
+			period 23.42
+	object
+		sprite planet/gas0
+		distance 1650.02
+		period 1215.27
+		object
+			sprite planet/callisto
+			distance 264
+			period 12.5708
+	object
+		sprite planet/gas1
+		distance 2529.23
+		period 2306.33
 
 system S-7583
 	pos 4978.77 -3738.57
@@ -2475,6 +3731,311 @@ system S-7590
 			sprite planet/callisto
 			distance 380
 			period 31.6482
+
+system S-7670
+	pos 4300.52 -4026.87
+	habitable 2340
+	link S-8077
+	link S-7183
+	link S-9565
+	link S-5128
+	asteroids "small metal" 3 5.1986
+	asteroids "large metal" 2 5.5352
+	object
+		sprite star/f5
+		distance 35.2564
+		period 12.5404
+		offset 180
+	object
+		sprite star/g5
+		distance 96.7436
+		period 12.5404
+	object
+		sprite planet/gas5
+		distance 382.904
+		period 61.9564
+	object
+		sprite planet/gas14
+		distance 837.904
+		period 200.559
+	object
+		sprite planet/gas12
+		distance 1726.46
+		period 593.182
+	object
+		sprite planet/gas15
+		distance 2635.62
+		period 1118.86
+		object
+			sprite planet/dust7
+			distance 227
+			period 18.0026
+		object
+			sprite planet/ice7
+			distance 371
+			period 37.6147
+		object
+			sprite planet/oberon
+			distance 526
+			period 63.5003
+
+system S-7910
+	pos 4195.52 -4227.87
+	habitable 825
+	link S-2982
+	link S-9353
+	link S-4431
+	asteroids "large metal" 1 3.1968
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
+
+system S-7924
+	pos 4260.52 -4201.87
+	habitable 805
+	link S-9353
+	link S-2982
+	link S-2582
+	asteroids "medium rock" 1 3.663
+	asteroids "large rock" 1 4.719
+	asteroids "large metal" 1 1.815
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
+
+system S-8077
+	pos 4293.52 -3969.87
+	habitable 2035
+	link S-4901
+	link S-1378
+	link S-7183
+	link S-7670
+	link S-1206
+	asteroids "small rock" 9 4.2016
+	asteroids "medium rock" 15 4.3264
+	asteroids "large rock" 94 3.5776
+	asteroids "small metal" 8 5.0752
+	asteroids "medium metal" 7 5.2416
+	asteroids "large metal" 39 2.912
+	object
+		sprite star/f5
+		distance 15.8821
+		period 9.00036
+	object
+		sprite star/m0
+		distance 85.1179
+		period 9.00036
+		offset 180
+	object
+		sprite planet/cloud7
+		distance 397.008
+		period 70.1417
+		object
+			sprite planet/dust4
+			distance 131
+			period 20.9033
+	object
+		sprite planet/dust2
+		distance 682.568
+		period 158.124
+	object
+		sprite planet/gas9
+		distance 1332.57
+		period 431.332
+		object
+			sprite planet/rock3
+			distance 223
+			period 12.4867
+	object
+		sprite planet/uranus
+		distance 2978.01
+		period 1441.01
+		object
+			sprite planet/tethys
+			distance 214
+			period 13.375
+		object
+			sprite planet/luna
+			distance 324
+			period 24.9167
 
 system S-8465
 	pos 4650.41 -3576.68
@@ -2609,6 +4170,92 @@ system S-864
 			distance 200
 			period 15.0564
 
+system S-8740
+	pos 4401.09 -3524.01
+	habitable 486.68
+	link S-7496
+	link S-7072
+	asteroids "small rock" 1 2.146
+	asteroids "large rock" 4 2.465
+	asteroids "medium metal" 1 1.972
+	asteroids "large metal" 1 4.292
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/mars
+		distance 308.04
+		period 98.0277
+		object
+			sprite planet/rock17
+			distance 111
+			period 15.6293
+	object
+		sprite planet/desert9
+		distance 642.25
+		period 295.117
+	object
+		sprite planet/cloud1
+		distance 879.41
+		period 472.852
+	object
+		sprite planet/desert2
+		distance 1396.02
+		period 945.749
+	object
+		sprite planet/gas6
+		distance 2229.98
+		period 1909.37
+		object
+			sprite planet/dust1
+			distance 276
+			period 11.7119
+		object
+			sprite planet/dust0
+			distance 421
+			period 22.0642
+		object
+			sprite planet/ice8
+			distance 536
+			period 31.6965
+
+system S-8743
+	pos 4329.09 -3835.01
+	habitable 4131.68
+	link S-4869
+	link S-2579
+	asteroids "small rock" 35 9.45
+	asteroids "medium rock" 1 8.0892
+	asteroids "large rock" 56 10.5084
+	asteroids "small metal" 51 4.3848
+	asteroids "medium metal" 138 4.6872
+	asteroids "large metal" 80 6.9552
+	object
+		sprite star/a5
+		distance 14.4885
+		period 8.48896
+		offset 180
+	object
+		sprite star/k0
+		distance 108.512
+		period 8.48896
+	object
+		sprite planet/ice2
+		distance 274.152
+		period 28.2477
+	object
+		sprite planet/cloud3
+		distance 510.312
+		period 71.7381
+	object
+		sprite planet/gas15
+		distance 1247.2
+		period 274.095
+	object
+		sprite planet/gas16
+		distance 2557.45
+		period 804.837
+
 system S-8801
 	pos 4608 -3791.71
 	habitable 486.68
@@ -2644,6 +4291,48 @@ system S-8801
 		sprite planet/gas6
 		distance 2486.62
 		period 2248.29
+
+system S-8826
+	pos 4211.52 -4012.87
+	habitable 2160
+	link S-1206
+	link S-3867
+	asteroids "small metal" 1 8.6736
+	asteroids "medium metal" 4 7.6752
+	asteroids "large metal" 2 7.9248
+	object
+		sprite star/g0
+		distance 69
+		period 13.9525
+		offset 180
+	object
+		sprite star/g0
+		distance 69
+		period 13.9525
+	object
+		sprite planet/titan
+		distance 260.76
+		period 36.2405
+	object
+		sprite planet/rock2
+		distance 496.76
+		period 95.2913
+	object
+		sprite planet/rock12
+		distance 822.92
+		period 203.175
+	object
+		sprite planet/gas9
+		distance 1628.93
+		period 565.831
+		object
+			sprite planet/dust5
+			distance 228
+			period 12.909
+	object
+		sprite planet/dust1
+		distance 2651.29
+		period 1174.95
 
 system S-8896
 	pos 4826.56 -3674.3
@@ -2818,6 +4507,138 @@ system S-9226
 		sprite planet/ice0
 		distance 2061.71
 		period 1395.55
+
+system S-9353
+	pos 4219.52 -4187.87
+	habitable 625
+	link S-9386
+	link S-4431
+	link S-2582
+	link S-7924
+	link S-2982
+	link S-7910
+	asteroids "small rock" 168 4.704
+	asteroids "medium rock" 131 2.0832
+	asteroids "large rock" 38 2.9568
+	asteroids "small metal" 3 4.2336
+	asteroids "medium metal" 10 3.864
+	asteroids "large metal" 12 2.7552
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock4
+		distance 182.44
+		period 39.4276
+	object
+		sprite planet/rock0
+		distance 387.44
+		period 122.019
+	object
+		sprite planet/ice4
+		distance 579.69
+		period 223.313
+	object
+		sprite planet/ocean3
+		distance 824.13
+		period 378.542
+	object
+		sprite planet/gas11
+		distance 2086.77
+		period 1525.22
+
+system S-9386
+	pos 4203.52 -4158.87
+	habitable 316.68
+	link S-9353
+	link S-4431
+	asteroids "large metal" 1 1.5048
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite stellar/rainbow_ringworld
+		distance 235
+		period 300
+	object
+		sprite stellar/rainbow_ringworld
+		distance 235
+		period 300
+		offset 60
+	object
+		sprite stellar/rainbow_ringworld
+		distance 235
+		period 300
+		offset 120
+	object
+		sprite stellar/rainbow_ringworld
+		distance 235
+		period 300
+		offset 180
+	object
+		sprite stellar/rainbow_ringworld
+		distance 235
+		period 300
+		offset 240
+	object
+		sprite stellar/rainbow_ringworld
+		distance 235
+		period 300
+		offset 300
+    object
+        sprite planet/station6
+        distance 340
+        period 60
+
+system S-9565
+	pos 4273.52 -4063.87
+	habitable 625
+	link S-3574
+	link S-7670
+	asteroids "large metal" 1 9.5312
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock8
+		distance 193.29
+		period 42.9966
+	object
+		sprite planet/gas8
+		distance 703.05
+		period 298.263
+		object
+			sprite planet/io
+			distance 205
+			period 15.6246
+	object
+		sprite planet/lava2
+		distance 1160.69
+		period 632.695
+	object
+		sprite planet/gas2
+		distance 1490.85
+		period 921.024
+	object
+		sprite planet/dust0
+		distance 1950.06
+		period 1377.82
+	object
+		sprite planet/gas12
+		distance 2661.22
+		period 2196.55
+		object
+			sprite planet/europa
+			distance 290
+			period 12.9713
+		object
+			sprite planet/dust3
+			distance 411
+			period 21.8851
+		object
+			sprite planet/rhea
+			distance 561
+			period 34.9003
 
 system S-9590
 	pos 4997.94 -3611.16
@@ -3118,6 +4939,47 @@ system S-9811
 			distance 302
 			period 31.7998
 
+system S-9898
+	pos 4448.09 -3784.01
+	habitable 858.28
+	link S-4960
+	link S-2805
+	link S-4550
+	asteroids "small rock" 66 3.888
+	asteroids "medium rock" 16 6.264
+	asteroids "large rock" 38 7.236
+	asteroids "medium metal" 54 8.046
+	asteroids "large metal" 7 3.834
+	object
+		sprite star/g5
+		distance 27.4517
+		period 13.8589
+		offset 180
+	object
+		sprite star/m4
+		distance 73.5483
+		period 13.8589
+	object
+		sprite planet/dust4
+		distance 216.038
+		period 43.3552
+	object
+		sprite planet/titan
+		distance 441.248
+		period 126.552
+	object
+		sprite planet/tethys
+		distance 1048.49
+		period 463.544
+	object
+		sprite planet/uranus
+		distance 2398.05
+		period 1603.36
+		object
+			sprite planet/lava0
+			distance 225
+			period 14.4194
+
 system S-9963
 	pos 4858.31 -3271.93
 	habitable 486.68
@@ -3165,7 +5027,7 @@ planet "D'Nal Station"
 	landscape land/station2
 	description `The station's exterior is ringed with landing slips of various size, with no discernable protection from the cold depths of surrounding space.  Despite that, as you make final approach your ships sensors detect a precipitous drop in solar radiation across the spectrum, dropping significantly below dangerous levels and stabalizing well inside safe long-term exposure limits.`
 	spaceport `Your ship sensors indicate a marginally breathable atmosphere outside your ship on the slip, in spite of the complete lack of apparent shielding or enclosure.  For safety, you don your suit anyway.`
-	spaceport `The station surface is completely smooth and bare of any features other than a small area bristling with a myriad array of hoses, connectors, and adaptors, one of which appears to mate securely with your fuel tanks.`
+	spaceport `	The station surface is completely smooth and bare of any features other than a small area bristling with a myriad array of hoses, connectors, and adaptors, one of which appears to mate securely with your fuel tanks.`
 
 planet "Deep Station"
 	attributes uninhabited
