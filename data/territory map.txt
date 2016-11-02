@@ -3,7 +3,7 @@
 
 galaxy Ant-NGC
 	pos 6000 -4000
-	sprite stellar/ant_ngc
+	sprite es_et/stellar/ant_ngc
 
 system Detour
 	pos 4315.25 -3429.95
@@ -1607,7 +1607,7 @@ system S-309
 			period 11.3603
 
 system S-3107
-	pos 4252.52 -3733.87
+	pos 4292.52 -3701.87
 	habitable 1080
 	asteroids "small rock" 5 2
 	asteroids "medium rock" 98 5.04
@@ -2244,6 +2244,47 @@ system S-4127
 		period 5952.12
 		offset 357.991
 
+system S-426
+	pos 4042.52 -3368.89
+	habitable 233.28
+	asteroids "small rock" 1 3.3033
+	asteroids "medium rock" 3 2.8392
+	asteroids "large rock" 7 3.8493
+	asteroids "small metal" 1 2.5116
+	asteroids "medium metal" 1 3.1668
+	asteroids "large metal" 2 2.4297
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock4
+		distance 384.01
+		period 197.077
+		object
+			sprite planet/callisto
+			distance 171
+			period 20.3575
+	object
+		sprite planet/lava6
+		distance 732.02
+		period 518.687
+	object
+		sprite planet/gas1
+		distance 1066.26
+		period 911.834
+	object
+		sprite planet/gas16
+		distance 1678.51
+		period 1800.97
+		object
+			sprite planet/io
+			distance 204
+			period 15.3371
+		object
+			sprite planet/rhea
+			distance 356
+			period 35.3567
+
 system S-4305
 	pos 4694.41 -3596.68
 	habitable 466.56
@@ -2699,6 +2740,65 @@ system S-5128
 			distance 580
 			period 59.6781
 
+system S-5181
+	pos 4146.52 -3192.89
+	habitable 1400
+	asteroids "small rock" 5 2.553
+	asteroids "medium rock" 32 1.955
+	asteroids "large rock" 11 1.403
+	asteroids "small metal" 49 2.668
+	asteroids "medium metal" 3 2.208
+	asteroids "large metal" 9 2.047
+	object
+		sprite star/g0
+		distance 21.4857
+		period 9.74289
+		offset 180
+	object
+		sprite star/m0
+		distance 72.5143
+		period 9.74289
+	object
+		sprite planet/gas10
+		distance 630.074
+		period 169.077
+		object
+			sprite planet/dust3
+			distance 191
+			period 13.8946
+		object
+			sprite planet/miranda
+			distance 322
+			period 30.4145
+		object
+			sprite planet/dust4
+			distance 443
+			period 49.0798
+	object
+		sprite planet/ocean5
+		distance 1493.07
+		period 616.763
+		object
+			sprite planet/io
+			distance 148
+			period 21.7576
+	object
+		sprite planet/gas12
+		distance 2483.36
+		period 1322.99
+		object
+			sprite planet/lava0
+			distance 310
+			period 14.336
+		object
+			sprite planet/luna
+			distance 414
+			period 22.1251
+		object
+			sprite planet/dust0
+			distance 577
+			period 36.404
+
 system S-5498
 	pos 4889.7 -3758.86
 	habitable 486.68
@@ -2905,6 +3005,48 @@ system S-5847
 			sprite planet/dust0
 			distance 260
 			period 10.7084
+
+system S-5946
+	pos 4293.52 -3190.89
+	habitable 2140.92
+	asteroids "small rock" 63 7.5768
+	asteroids "medium rock" 78 8.316
+	asteroids "large rock" 2 8.5008
+	asteroids "medium metal" 44 3.4496
+	asteroids "large metal" 1 5.1744
+	object
+		sprite star/f5
+		distance 25.6636
+		period 12.6661
+	object
+		sprite star/k5
+		distance 103.336
+		period 12.6661
+		offset 180
+	object
+		sprite planet/cloud5
+		distance 303.586
+		period 45.7281
+	object
+		sprite planet/uranus
+		distance 1073.84
+		period 304.205
+		object
+			sprite planet/miranda
+			distance 219
+			period 13.8465
+		object
+			sprite planet/luna
+			distance 356
+			period 28.6978
+	object
+		sprite planet/desert2
+		distance 2021.13
+		period 785.507
+		object
+			sprite planet/rock0
+			distance 153
+			period 21.1965
 
 system S-6035
 	pos 4995.68 -3673.17
@@ -3277,16 +3419,19 @@ system S-7098
 		period 10
 	object
 		sprite planet/ice6
-		distance 280.49
-		period 85.1754
+		distance 284.496
+		period 87.0068
+		offset 176.953
 		object
 			sprite planet/luna
-			distance 169
-			period 27.618
+			distance 153.804
+			period 23.9781
+			offset 323.578
 	object
 		sprite planet/gas12
-		distance 1119.58
-		period 679.236
+		distance 1108.39
+		period 669.079
+		offset 343.681
 		object
 			sprite planet/callisto
 			distance 305
@@ -3297,8 +3442,9 @@ system S-7098
 			period 24.2418
 	object
 		sprite planet/gas0
-		distance 2702.58
-		period 2547.45
+		distance 2691.39
+		period 2531.65
+		offset 358.211
 		object
 			sprite planet/oberon
 			distance 251
@@ -3317,8 +3463,9 @@ system S-7098
 			period 45.2422
 	object "Wormhole Caius"
 		sprite planet/wormhole
-		distance 4284.87
-		period 5085.63
+		distance 4273.68
+		period 5065.72
+		offset 359.436
 
 system S-7113
 	pos 4827.68 -3749.84
@@ -3369,7 +3516,7 @@ system S-7113
 			period 31.3424
 
 system S-7133
-	pos 4250.69 -3560.03
+	pos 4253.69 -3559.03
 	habitable 1050.92
 	asteroids "small rock" 2 3.703
 	asteroids "medium rock" 5 7.7234
@@ -3499,6 +3646,53 @@ system S-7183
 			sprite planet/dust0
 			distance 349
 			period 26.552
+
+system S-7324
+	pos 4063.52 -3162.89
+	habitable 719.96
+	asteroids "small rock" 6 2.622
+	asteroids "medium rock" 1 2.2908
+	asteroids "large rock" 7 1.6284
+	asteroids "small metal" 11 3.726
+	asteroids "medium metal" 14 2.5668
+	asteroids "large metal" 2 1.4352
+	object
+		sprite star/k0
+		distance 34.0219
+		period 16.0395
+	object
+		sprite star/m4
+		distance 70.9781
+		period 16.0395
+		offset 180
+	object
+		sprite planet/rock19
+		distance 228.618
+		period 51.5314
+	object
+		sprite planet/cloud6
+		distance 630.428
+		period 235.971
+		object
+			sprite planet/rock7
+			distance 129
+			period 15
+	object
+		sprite planet/rock12
+		distance 1215.43
+		period 631.684
+	object
+		sprite planet/rock5
+		distance 1435.43
+		period 810.733
+	object
+		sprite planet/ice3
+		distance 1721.92
+		period 1065.18
+	object
+		sprite planet/gas15
+		distance 2813.88
+		period 2225.17
 
 system S-7355
 	pos 4241.52 -3838.87
@@ -3732,6 +3926,49 @@ system S-7590
 			distance 380
 			period 31.6482
 
+system S-7637
+	pos 4018.52 -3479.89
+	habitable 745.92
+	asteroids "small rock" 16 1.7204
+	asteroids "medium rock" 15 2.2814
+	asteroids "large rock" 64 1.7952
+	asteroids "small metal" 4 2.7302
+	asteroids "medium metal" 75 2.6367
+	asteroids "large metal" 7 1.8139
+	object
+		sprite star/k5
+		distance 45.045
+		period 15.7579
+	object
+		sprite star/m0
+		distance 59.955
+		period 15.7579
+		offset 180
+	object
+		sprite planet/desert8
+		distance 329.045
+		period 87.4172
+		object
+			sprite planet/tethys
+			distance 149
+			period 23.3285
+	object
+		sprite planet/rock14
+		distance 636.855
+		period 235.383
+	object
+		sprite planet/ganymede
+		distance 926.465
+		period 413.007
+	object
+		sprite planet/gas4
+		distance 1295.62
+		period 683.019
+	object
+		sprite planet/gas15
+		distance 3891.91
+		period 3555.98
+
 system S-7670
 	pos 4300.52 -4026.87
 	habitable 2340
@@ -3778,6 +4015,52 @@ system S-7670
 			sprite planet/oberon
 			distance 526
 			period 63.5003
+
+system S-7694
+	pos 4029.52 -3233.89
+	habitable 1705
+	asteroids "small rock" 9 4.4772
+	asteroids "medium rock" 28 3.4944
+	asteroids "large rock" 8 4.6228
+	asteroids "small metal" 2 3.276
+	asteroids "large metal" 2 5.3508
+	object
+		sprite star/g0
+		distance 43.9883
+		period 12.7341
+		offset 180
+	object
+		sprite star/g5
+		distance 76.0117
+		period 12.7341
+	object
+		sprite planet/desert1
+		distance 367.572
+		period 68.267
+		object
+			sprite planet/io
+			distance 169
+			period 19.0712
+	object
+		sprite planet/rock11
+		distance 831.332
+		period 232.198
+	object
+		sprite planet/cloud3
+		distance 1092.29
+		period 349.708
+	object
+		sprite planet/gas15
+		distance 1687.18
+		period 671.337
+		object
+			sprite planet/rock17
+			distance 213
+			period 16.3631
+		object
+			sprite planet/ice8
+			distance 289
+			period 25.8609
 
 system S-7910
 	pos 4195.52 -4227.87
@@ -4036,6 +4319,105 @@ system S-8077
 			sprite planet/luna
 			distance 324
 			period 24.9167
+
+system S-8164
+	pos 4034.52 -3407.89
+	habitable 425.92
+	asteroids "small rock" 9 2.67
+	asteroids "medium rock" 95 2.67
+	asteroids "large rock" 7 2.1
+	asteroids "medium metal" 8 3.12
+	asteroids "large metal" 12 3.48
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice2
+		distance 157.89
+		period 38.4528
+	object
+		sprite planet/ice6
+		distance 426.78
+		period 170.884
+	object
+		sprite planet/rock12
+		distance 899.22
+		period 522.631
+	object
+		sprite planet/gas1
+		distance 1560.26
+		period 1194.51
+		object
+			sprite planet/dust0
+			distance 199
+			period 11.2201
+		object
+			sprite planet/dust4
+			distance 279
+			period 18.6261
+		object
+			sprite planet/dust7
+			distance 385
+			period 30.193
+	object
+		sprite planet/gas7
+		distance 2499.87
+		period 2422.55
+		object
+			sprite planet/oberon
+			distance 227
+			period 12.1666
+		object
+			sprite planet/dust1
+			distance 360
+			period 24.2988
+
+system S-8402
+	pos 4047.52 -3304.89
+	habitable 1111.68
+	asteroids "small rock" 44 2.4024
+	asteroids "medium rock" 13 6.93
+	asteroids "large rock" 39 3.3264
+	asteroids "small metal" 1 5.0358
+	asteroids "medium metal" 16 3.3264
+	asteroids "large metal" 21 4.851
+	object
+		sprite star/g5
+		distance 38.5253
+		period 9.90362
+	object
+		sprite star/k0
+		distance 49.4747
+		period 9.90362
+		offset 180
+	object
+		sprite planet/cloud0
+		distance 198.565
+		period 33.5678
+	object
+		sprite planet/rock2
+		distance 546.565
+		period 153.297
+		object
+			sprite planet/rock7
+			distance 174
+			period 24.7834
+	object
+		sprite planet/earth
+		distance 1034.97
+		period 399.452
+	object
+		sprite planet/gas4
+		distance 1830.98
+		period 939.934
+		object
+			sprite planet/ice7
+			distance 281
+			period 16.6133
+		object
+			sprite planet/luna
+			distance 400
+			period 28.2155
 
 system S-8465
 	pos 4650.41 -3576.68
@@ -4557,38 +4939,34 @@ system S-9386
 		sprite star/k0
 		period 10
 	object
-		sprite stellar/rainbow_ringworld
+		sprite es_et/stellar/rainbow_ringworld
 		distance 235
 		period 300
 	object
-		sprite stellar/rainbow_ringworld
+		sprite es_et/stellar/rainbow_ringworld
 		distance 235
 		period 300
 		offset 60
 	object
-		sprite stellar/rainbow_ringworld
+		sprite es_et/stellar/rainbow_ringworld
 		distance 235
 		period 300
 		offset 120
 	object
-		sprite stellar/rainbow_ringworld
+		sprite es_et/stellar/rainbow_ringworld
 		distance 235
 		period 300
 		offset 180
 	object
-		sprite stellar/rainbow_ringworld
+		sprite es_et/stellar/rainbow_ringworld
 		distance 235
 		period 300
 		offset 240
 	object
-		sprite stellar/rainbow_ringworld
+		sprite es_et/stellar/rainbow_ringworld
 		distance 235
 		period 300
 		offset 300
-    object
-        sprite planet/station6
-        distance 340
-        period 60
 
 system S-9565
 	pos 4273.52 -4063.87
@@ -5021,6 +5399,59 @@ system S-9963
 		sprite planet/gas6
 		distance 4345.11
 		period 5193.25
+
+system SC-43
+	pos 4061.52 -3510.89
+	habitable 233.28
+	asteroids "large rock" 1 5.508
+	asteroids "small metal" 1 4.4064
+	asteroids "medium metal" 6 6.6555
+	asteroids "large metal" 23 5.4621
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava6
+		distance 171.61
+		period 58.8756
+	object
+		sprite planet/forest5
+		distance 384.027
+		period 197.09
+		offset 205.515
+	object
+		sprite planet/rock9
+		distance 591.517
+		period 376.766
+		offset 307.135
+	object
+		sprite planet/ice0
+		distance 1481.52
+		period 1493.42
+		offset 354.622
+	object
+		sprite planet/gas2
+		distance 1724.16
+		period 1874.94
+		offset 356.315
+	object
+		sprite planet/gas6
+		distance 3544.2
+		period 5525.84
+		offset 359.39
+		object
+			sprite planet/luna
+			distance 277
+			period 11.7756
+		object Cold
+			sprite planet/lava7
+			distance 367
+			period 17.9582
+
+planet Cold
+	landscape es_et/land/cold
+	description `Ice and dust clouds orbit at the Legrange points of this moon with its primary and form an evenescent ring around the moon itself.  The atmosphere is thick with sulfuric acid from the gaping fissures which were cut or torn into the crust, leaving near permanant eruptions near what may have once been ocean basins.  Tidal heating from the rapid orbit around its primary keeps both the rivers of magma and the corrosive atmosphere roiling constantly.`
+	spaceport `Located on a huge unmarked shelf of rock which is otherwise undifferentiated from the broken landscape and violent atmosphere. An opaque hemisphere sized to just encompass your ship appears the instant your propulsion systems shut down, accompanied by a flash of light.  A few moments later pipes and fittings made of the same stone as the apparent landing pad grow up to your ship and connect to your fuel port.  As soon as you unlock the fill system, the level of your hyperspace fuel tanks begins to rise.`
 
 planet "D'Nal Station"
 	attributes uninhabited
